@@ -38,7 +38,16 @@ Images of it in-game: https://imgur.com/a/XqUVi
 Current to do list:
 Tracking of PvP events and Fishing events, ability to create more custom events and adding event notes to the calendar to make it more clear on what day an event is currently active (especially if events overlap).
 
+Please Note: 
+
+Event dates are correct to http://forum.warmane.com/showthread....47#post2903147
+
+If any event dates are incorrect please let me know below or submit an issue thanks; I'm only keeping event dates correct to warmane's schedule at this current time.
+
+
 ## Credits
+
+This addon is based on the work of TheOneReed's EVTCalendar for Classic which you can track official development over at https://github.com/TheOneReed/EVTCalendar or for my development at https://github.com/AirChandler/EVTCalendar.
 
 Original Author: 
 TheOneReed
