@@ -382,9 +382,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -392,6 +389,9 @@ function EVT_UpdateCalendar()
 				elseif (table_DayVal[tonumber(step)] == 1) then
 					b:SetNormalTexture(Img["EWinterveil"]);
 					b:SetPushedTexture(Img["EWinterveilInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				else
 					b:SetNormalTexture(Img["DayActive"]);
 					b:SetPushedTexture(Img["DayInactive"]);
@@ -402,9 +402,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -421,6 +418,9 @@ function EVT_UpdateCalendar()
 				elseif (table_DayVal[tonumber(step)] == 1) then
 					b:SetNormalTexture(Img["SLunarFestival"]);
 					b:SetPushedTexture(Img["SLunarFestivalInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif (table_DayVal[tonumber(step)] > 14 and table_DayVal[tonumber(step)] < 28) then
 					b:SetNormalTexture(Img["LoveIsInTheAir"]);
 					b:SetPushedTexture(Img["ILoveIsInTheAir"]);
@@ -454,9 +454,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -470,6 +467,9 @@ function EVT_UpdateCalendar()
 				elseif (table_DayVal[tonumber(step)] == 9) then
 					b:SetNormalTexture(Img["ENobleGarden"]);
 					b:SetPushedTexture(Img["ENobleGardenInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif (table_DayVal[tonumber(step)] > 2 and table_DayVal[tonumber(step)] < 9) then
 					b:SetNormalTexture(Img["NobleGarden"]);
 					b:SetPushedTexture(Img["INobleGarden"]); -- almost there..
@@ -483,9 +483,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -493,6 +490,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 7) then
 					b:SetNormalTexture(Img["EChildrensWeek"]);
 					b:SetPushedTexture(Img["EChildrensWeekInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif(table_DayVal[tonumber(step)] < 7) then
 					b:SetNormalTexture(Img["ChildrensWeek"]);
 					b:SetPushedTexture(Img["IChildrensWeek"]);
@@ -506,9 +506,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -516,6 +513,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 21) then
 					b:SetNormalTexture(Img["SMidSummer"]);
 					b:SetPushedTexture(Img["SMidSummerInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif(table_DayVal[tonumber(step)] > 21) then
 					b:SetNormalTexture(Img["MidSummer"]);
 					b:SetPushedTexture(Img["IMidSummer"]);
@@ -529,9 +529,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -539,6 +536,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 5) then
 					b:SetNormalTexture(Img["EMidSummer"]);
 					b:SetPushedTexture(Img["EMidSummerInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif(table_DayVal[tonumber(step)] < 5) then
 					b:SetNormalTexture(Img["MidSummer"]);
 					b:SetPushedTexture(Img["IMidSummer"]);
@@ -569,9 +569,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -585,6 +582,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 30) then
 					b:SetNormalTexture(Img["EHarvestFestival"]);
 					b:SetPushedTexture(Img["EHarvestFestivalInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif(table_DayVal[tonumber(step)] > 23 and table_DayVal[tonumber(step)] < 30) then
 					b:SetNormalTexture(Img["HarvestFestival"]);
 					b:SetPushedTexture(Img["IHarvestFestival"]);
@@ -601,9 +601,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -614,6 +611,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 4) then
 					b:SetNormalTexture(Img["EBrewfest"]);
 					b:SetPushedTexture(Img["EBrewfestInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif(table_DayVal[tonumber(step)] > 18 and table_DayVal[tonumber(step)] < 32) then
 					b:SetNormalTexture(Img["HallowsEnd"]);
 					b:SetPushedTexture(Img["IHallowsEnd"]);
@@ -630,9 +630,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -640,6 +637,9 @@ function EVT_UpdateCalendar()
 				elseif(table_DayVal[tonumber(step)] == 1) then
 					b:SetNormalTexture(Img["EHallowsEnd"]);
 					b:SetPushedTexture(Img["EHallowsEndInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				else
 					b:SetNormalTexture(Img["DayActive"]);
 					b:SetPushedTexture(Img["DayInactive"]);
@@ -650,9 +650,6 @@ function EVT_UpdateCalendar()
 					b:SetPushedTexture(Img["SElwynnInactive"]);
 					firstSunday = false;
 					stopdarkmoonfaireDay = false;
-				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-					b:SetNormalTexture(Img["DarkmoonFaire"]);
-					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 					b:SetNormalTexture(Img["EElwynn"]);
 					b:SetPushedTexture(Img["EElwynnInactive"]);
@@ -660,6 +657,9 @@ function EVT_UpdateCalendar()
 				elseif (table_DayVal[tonumber(step)] == 15) then
 					b:SetNormalTexture(Img["SWinterveil"]);
 					b:SetPushedTexture(Img["SWinterveilInactive"]);
+				elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+					b:SetNormalTexture(Img["DarkmoonFaire"]);
+					b:SetPushedTexture(Img["IDarkmoonFaire"]);
 				elseif (table_DayVal[tonumber(step)] > 15 and table_DayVal[tonumber(step)] < 32) then
 					b:SetNormalTexture(Img["Winterveil"]);
 					b:SetPushedTexture(Img["IWinterveil"]);
@@ -794,9 +794,6 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
@@ -804,6 +801,9 @@ function disableButtonAfter(Button, ButtonPos)
 			elseif(x == 1) then
 				Button:SetNormalTexture(Img["EWinterveilInactive"]);
 				Button:SetPushedTexture(Img["EWinterveilInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -814,9 +814,6 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
@@ -827,18 +824,21 @@ function disableButtonAfter(Button, ButtonPos)
 			elseif (x == 28) then
 				Button:SetNormalTexture(Img["ELoveIsInTheAirInactive"]);
 				Button:SetPushedTexture(Img["ELoveIsInTheAirInactive"]);
-			elseif (x > 14 and x < 28) then
-				Button:SetNormalTexture(Img["ILoveIsInTheAir"]);
-				Button:SetPushedTexture(Img["ILoveIsInTheAir"]);
 			elseif (x == 1) then
 				Button:SetNormalTexture(Img["SLunarFestivalInactive"]);
 				Button:SetPushedTexture(Img["SLunarFestivalInactive"]);
-			elseif (x > 1 and x < 15) then
-				Button:SetNormalTexture(Img["ILunarFestival"]);
-				Button:SetPushedTexture(Img["ILunarFestival"]);
 			elseif (x == 15) then
 				Button:SetNormalTexture(Img["ELunarFestivalInactive"]);
 				Button:SetNormalTexture(Img["ELunarFestivalInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
+			elseif (x > 14 and x < 28) then
+				Button:SetNormalTexture(Img["ILoveIsInTheAir"]);
+				Button:SetPushedTexture(Img["ILoveIsInTheAir"]);
+			elseif (x > 1 and x < 15) then
+				Button:SetNormalTexture(Img["ILunarFestival"]);
+				Button:SetPushedTexture(Img["ILunarFestival"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -866,22 +866,22 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
 				stopdarkmoonfaireDay = true;
-			elseif (x > 2 and x < 9) then
-				Button:SetNormalTexture(Img["INobleGarden"]);
-				Button:SetPushedTexture(Img["INobleGarden"]);
 			elseif (x == 2) then
 				Button:SetNormalTexture(Img["SNobleGardenInactive"]);
 				Button:SetPushedTexture(Img["SNobleGardenInactive"]);
 			elseif (x == 9) then
 				Button:SetNormalTexture(Img["ENobleGardenInactive"]);
 				Button:SetPushedTexture(Img["ENobleGardenInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
+			elseif (x > 2 and x < 9) then
+				Button:SetNormalTexture(Img["INobleGarden"]);
+				Button:SetPushedTexture(Img["INobleGarden"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -892,9 +892,6 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
@@ -902,6 +899,9 @@ function disableButtonAfter(Button, ButtonPos)
 			elseif(x == 7) then
 				Button:SetNormalTexture(Img["EChildrensWeekInactive"]);
 				Button:SetPushedTexture(Img["EChildrensWeekInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif(x < 7) then
 				Button:SetNormalTexture(Img["IChildrensWeek"]);
 				Button:SetPushedTexture(Img["IChildrensWeek"]);
@@ -932,19 +932,19 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
 				stopdarkmoonfaireDay = true;
-			elseif(x < 5) then
-				Button:SetNormalTexture(Img["IMidSummer"]);
-				Button:SetPushedTexture(Img["IMidSummer"]);
 			elseif(x == 5) then
 				Button:SetNormalTexture(Img["EMidSummerInactive"]);
 				Button:SetPushedTexture(Img["EMidSummerInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
+			elseif(x < 5) then
+				Button:SetNormalTexture(Img["IMidSummer"]);
+				Button:SetPushedTexture(Img["IMidSummer"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -989,19 +989,19 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
 				stopdarkmoonfaireDay = true;
-			elseif(x > 0 and x < 4) then
-				Button:SetNormalTexture(Img["IBrewfest"]);
-				Button:SetPushedTexture(Img["IBrewfest"]);
 			elseif(x == 4) then
 				Button:SetNormalTexture(Img["EBrewfestInactive"]);
 				Button:SetPushedTexture(Img["EBrewfestInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
+			elseif(x > 0 and x < 4) then
+				Button:SetNormalTexture(Img["IBrewfest"]);
+				Button:SetPushedTexture(Img["IBrewfest"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -1012,9 +1012,6 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
@@ -1022,6 +1019,9 @@ function disableButtonAfter(Button, ButtonPos)
 			elseif(x == 1) then
 				Button:SetNormalTexture(Img["EHallowsEndInactive"]);
 				Button:SetPushedTexture(Img["EHallowsEndInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -1032,19 +1032,19 @@ function disableButtonAfter(Button, ButtonPos)
 				Button:SetPushedTexture(Img["SElwynnInactive"]);
 				firstSunday = false;
 				stopdarkmoonfaireDay = false;
-			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
-				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
-				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
 			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and darkmoonfaireDay == 7) then
 				Button:SetNormalTexture(Img["EElwynnInactive"]);
 				Button:SetPushedTexture(Img["EElwynnInactive"]);
 				stopdarkmoonfaireDay = true;
-			elseif (x > 12 and x < 31) then
-				Button:SetNormalTexture(Img["IWinterveil"]);
-				Button:SetPushedTexture(Img["IWinterveil"]);
 			elseif (x == 12) then
 				Button:SetNormalTexture(Img["SWinterveilInactive"]);
 				Button:SetPushedTexture(Img["SWinterveilInactive"]);
+			elseif((stopdarkmoonfaireDay == false and firstSunday == false) and (darkmoonfaireDay > 1 and darkmoonfaireDay < 7)) then
+				Button:SetNormalTexture(Img["IDarkmoonFaire"]);
+				Button:SetPushedTexture(Img["IDarkmoonFaire"]);
+			elseif (x > 12 and x < 31) then
+				Button:SetNormalTexture(Img["IWinterveil"]);
+				Button:SetPushedTexture(Img["IWinterveil"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
@@ -1107,12 +1107,12 @@ function disableButtonBefore(Button, ButtonPos)
 			if(x == 23) then
 				Button:SetNormalTexture(Img["SHarvestFestivalInactive"]);
 				Button:SetPushedTexture(Img["SHarvestFestivalInactive"]);
-			elseif(x > 23 and x < 30) then
-				Button:SetNormalTexture(Img["IHarvestFestival"]);
-				Button:SetPushedTexture(Img["IHarvestFestival"]);
 			elseif(x == 30) then
 				Button:SetNormalTexture(Img["EHarvestFestivalInactive"]);
 				Button:SetPushedTexture(Img["EHarvestFestivalInactive"]);
+			elseif(x > 23 and x < 30) then
+				Button:SetNormalTexture(Img["IHarvestFestival"]);
+				Button:SetPushedTexture(Img["IHarvestFestival"]);
 			else
 				Button:SetNormalTexture(Img["DayInactive"]);
 				Button:SetPushedTexture(Img["DayInactive"]);
