@@ -12,15 +12,25 @@ EVTCalendarTBC is an addon to implement a somewhat WoTLK+ blizz-like calendar fo
 This calendar has PARTY/RAID/GUILD communications for custom events (for eg. raids), and all invites are done through these channels. Because there is no access to a serverside database, this calendar is NOT live updating, but works on an invite/confirmation process. The person you want to invite MUST be online for them to receive it. Alternatively, if you wish to confirm yourself for an event, the event creator must be online.
 
 The calendar also keeps tracks of the following events:
+
 Love is in the Air 
+
 Lunar Festival 
+
 Noblegarden 
+
 Children's Week 
+
 Midsummer Fire Festival 
+
 Brewfest 
+
 Harvest Festival
+
 Hallow's End
+
 Feast of Winter Veil
+
 Darkmoon Faire (Doesn't say at which location (Elwynn, Mulgore and Terokkar Forest) though this may come at a later date once rotation is known), the event is active on the first Sunday of each month lasting one week, if incorrect please let me know).
 
 Images of it in-game: https://imgur.com/a/XqUVi
