@@ -220,7 +220,7 @@ end
 function EVTFrameType_Initialize()
     local info;
 
-    for i = 1, 7, 1 do
+    for i = 6, 7, 1 do --NOTE: Other buttons disabled until added tbc raids/dungeons etc.
 		info = buildButton(evtTypes[i], i, EVTFrameType_OnClick)
 		UIDropDownMenu_AddButton(info);
 	end
