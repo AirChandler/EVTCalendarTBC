@@ -42,7 +42,7 @@ Please Note:
 
 Event dates are correct to http://forum.warmane.com/showthread....47#post2903147
 
-If any event dates are incorrect please let me know below or submit an issue thanks.
+If any event dates are incorrect please let me know by submitting an issue thanks.
 
 ## Credits
 
