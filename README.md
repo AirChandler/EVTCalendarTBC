@@ -42,8 +42,7 @@ Please Note:
 
 Event dates are correct to http://forum.warmane.com/showthread....47#post2903147
 
-If any event dates are incorrect please let me know below or submit an issue thanks; I'm only keeping event dates correct to warmane's schedule at this current time.
-
+If any event dates are incorrect please let me know below or submit an issue thanks.
 
 ## Credits
 
